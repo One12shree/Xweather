@@ -57,7 +57,7 @@ export default function WeatherApp() {
         </button>
       </div>
 
-      {loading && <p data-testid="loading-text">Loading...</p>}
+      {loading && <p data-testid="loading-text">Loading data...</p>}
 
       {error && <p data-testid="error-text">{error}</p>}
 
